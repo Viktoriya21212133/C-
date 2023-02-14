@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Найти индекс массива по искомому числу
 
 //Введем исходный массив
 int [] array = {1, 235, 531, 4, 6 , 15, 18, 235, 62};
