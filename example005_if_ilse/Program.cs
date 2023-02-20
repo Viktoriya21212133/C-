@@ -1,4 +1,6 @@
-﻿Console.Write ("Enter your name: ");
+﻿// Программа, приветствующая любимого юсера и всех остальных
+
+Console.Write ("Enter your name: ");
 string username = Console.ReadLine();
 
 if (username == "masha")
