@@ -62,3 +62,18 @@ string Method4(int count, string text)
 // Вызов метода
 string res = Method4(3, "Message text, ");
 Console.WriteLine(res);
+
+// 4 вид. Самый важный! Метод что-то принимает, что-то возвращает (с циклом for)
+string Method41(int count1, string text1)
+{
+    string result1 = string.Empty;
+    for (int i1 = 0; i1 < count1; i1++)
+    {
+        result1 = result1+text1;
+    }
+    return result1;
+}
+
+// Вызов метода
+string res1 = Method41(5, "Message11 text, ");
+Console.WriteLine(res1);
